@@ -23,7 +23,7 @@ class _ExpensesWidgetState extends State<ExpensesWidget> {
       crossAxisAlignment: CrossAxisAlignment.center,
       children: <Widget>[
         Container(
-          height: height / 10,
+          height: height / 14,
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
@@ -35,17 +35,23 @@ class _ExpensesWidgetState extends State<ExpensesWidget> {
                         fontWeight: FontWeight.bold, fontSize: fontSize(20)),
                   )),
               Container(
-                width: width / 2.5,
+                width: width / 3.5,
                 margin: EdgeInsets.only(right: width / 30),
                 child: Row(
                   children: <Widget>[
                     ArrowButton(
-                      margin: EdgeInsets.symmetric(horizontal: 8, vertical: 8),
-                      icon: Icon(Icons.arrow_back_ios),
+                      margin: EdgeInsets.symmetric(horizontal: 6, vertical: 6),
+                      icon: Icon(
+                        Icons.arrow_back_ios,
+                        size: fontSize(17),
+                      ),
                     ),
                     Padding(padding: EdgeInsets.only(left: width / 50)),
                     ArrowButton(
-                      icon: Icon(Icons.arrow_forward_ios),
+                      icon: Icon(
+                        Icons.arrow_forward_ios,
+                        size: fontSize(17),
+                      ),
                     )
                   ],
                 ),

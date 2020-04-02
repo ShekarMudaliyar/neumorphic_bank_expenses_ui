@@ -1,4 +1,4 @@
-package com.example.neumorphic_bank_expenses_ui
+package com.shekarmudaliyar.neumorphic_bank_expenses_ui
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity

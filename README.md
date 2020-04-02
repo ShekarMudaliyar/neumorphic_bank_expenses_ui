@@ -1,6 +1,23 @@
 # neumorphic_bank_expenses_ui
 
-A new Flutter project.
+Small inplementation of neumorphic UI design
+
+## [UI design from dribble](https://dribbble.com/shots/9084817-Conceptual-Dashboard-Screen)
+
+## Preview
+
+![screenshot mobile](preview/ssmobile.jpg)
+
+![screenshot desktop](preview/ssdesktop.png)
+
+## Guide
+
+```
+git clone https://github.com/ShekarMudaliyar/neumorphic_bank_expenses_ui.git
+cd neumorphic_bank_expenses_ui
+flutter packages get
+flutter run
+```
 
 ## Getting Started
 

@@ -8,7 +8,7 @@ class AppColors {
   static Color orange = Color(0xFFF86946);
   static Color lightPurple = Color(0xFFFFE3E8);
   static Color lightBlue = Color(0xFFEFF1FF);
-  static Color primaryWhite = Color(0xFFC1D5E9);
+  static Color primaryWhite = Color(0xFFCADCED);
   static List pieColors = [
     Color(0xFF5261FD),
     Color(0xFF2EC6FF),

@@ -15,7 +15,7 @@ class ArrowButton extends StatelessWidget {
         margin: margin,
         decoration: BoxDecoration(
             color: AppColors.primaryWhite,
-            borderRadius: BorderRadius.circular(20),
+            borderRadius: BorderRadius.circular(15),
             boxShadow: AppColors.neumorpShadow),
         alignment: Alignment.center,
         child: icon,
